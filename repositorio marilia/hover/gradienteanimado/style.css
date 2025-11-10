@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    font-size: 80px;
+
+}
+
+.box-animado{
+    width: 100%;
+    padding: 350px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left,#62C9E3,#6278E3,#62A1E3,#62E3D2,#381BE6,#ADC7E3);
+    background-size: 500% 100%;
+    animation: gradienteanimado 5s infinite alternate;
+
+}
+
+.box-animado h1{
+    color: black;
+    font-weight: lighter;
+}
+
+@keyframes gradienteanimado{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+        
+    
+}
+   

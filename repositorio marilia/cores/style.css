@@ -1,0 +1,39 @@
+@charset "UTF-8";
+ @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Meow+Script&family=UnifrakturMaguntia&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Meow+Script&family=UnifrakturMaguntia&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Borel&family=Fleur+De+Leah&family=Meow+Script&family=Story+Script&family=UnifrakturMaguntia&display=swap');
+
+h1 {
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+}
+
+h2 {
+  font-family: "Borel", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #3B31E8;
+}
+
+p {
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: justify;
+}
+
+body {
+  background-image: linear-gradient(to left,#31E888,#31CDE8,#31E8C6,#31E84A,#3194E8,#C0EBE3);
+  
+}
+
+main{
+    background-color: #7e94d3;
+    width: 800px;
+    padding: 19px;
+    margin: auto;
+    border-radius: 10px;
+  
+}
